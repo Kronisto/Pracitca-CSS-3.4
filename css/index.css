@@ -1,0 +1,39 @@
+section {
+
+    /*Caja*/
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: end;
+
+}
+
+section span{
+
+    font-style: italic;
+
+}
+
+.text{
+
+    font-family: "FiraCode";
+    color: #fe8019;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.text li {
+
+    color: #83a598;
+    margin: 20px
+
+}
+
+section img {
+
+    margin-top: 20px;
+    margin-right: 20px;
+
+}

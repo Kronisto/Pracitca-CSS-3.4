@@ -1,0 +1,61 @@
+.menu {
+  grid-column: 1 / 2 ;
+}
+
+.datos {
+  grid-column: 2 ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "menu datos datos";
+  gap: 20px;
+}
+
+.datos h1 {
+  color: #8ec07c;
+    margin-bottom: 0;
+
+}
+.tabla {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.celda {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid black;
+  min-width: 0;
+}
+
+
+.fila:hover {
+  background-color: #d5c4a1 !important;
+}
+
+.fila:first-child {
+
+  font-weight: bold;
+  background-color: #83a598 !important;
+  color: white;
+
+}
+
+.fila:nth-child(even){
+  background-color: #7c6f64;
+}
+
+.fila:nth-child(odd):not(:first-child) {
+  background-color: #928374;
+}

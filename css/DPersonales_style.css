@@ -1,0 +1,61 @@
+.menu {
+  grid-column: 1;
+}
+
+.datos {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "menu datos";
+  gap: 20px;
+}
+
+.datos h1 {
+  color: #8ec07c;
+    margin-bottom: 0;
+
+}
+.datos {
+  text-align: justify;
+  font-size: 18px;
+  color: #1d2021;
+}
+
+.datos ul {
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.datos li {
+
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+
+.datos li span {
+
+    font-weight: bold;
+
+}
+
+.datos img {
+  float: left;
+  margin: 18px;
+  margin-right: auto;
+  margin-left: 0px;
+
+      max-width: 100%;
+    width: auto;
+}
+
